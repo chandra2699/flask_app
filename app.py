@@ -12,6 +12,8 @@ def home():
 
 @app.route("/")
 def index():
+
+    
     return render_template('index.html', data=   [1,2,3,"fdsfsdfsdfsd"])
 app.run(debug=True)
 
